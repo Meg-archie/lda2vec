@@ -1,5 +1,5 @@
-import dirichlet_likelihood
-import embed_mixture
+from . import dirichlet_likelihood
+from . import embed_mixture
 import tracking
 import preprocess
 import corpus

@@ -9,7 +9,7 @@ import pickle
 from sklearn.datasets import fetch_20newsgroups
 import numpy as np
 
-from lda2vec import preprocess, Corpus
+from . import preprocess, Corpus
 
 logging.basicConfig()
 

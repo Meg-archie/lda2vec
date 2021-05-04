@@ -1,5 +1,5 @@
-from . import EmbedMixture
-from . import dirichlet_likelihood
+from .embed_mixture import EmbedMixture
+from .dirichlet_likelihood import dirichlet_likelihood
 from .utils import move
 
 from chainer import Chain

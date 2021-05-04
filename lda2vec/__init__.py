@@ -7,6 +7,7 @@ from . import topics
 from . import negative_sampling
 from . import lda2vec_run
 from . import lda2vec_model
+from . import preprocess_new
 
 dirichlet_likelihood = dirichlet_likelihood.dirichlet_likelihood
 EmbedMixture = embed_mixture.EmbedMixture

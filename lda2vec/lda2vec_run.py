@@ -16,7 +16,7 @@ import chainer.optimizers as O
 import numpy as np
 
 from . import utils
-from . import prepare_topics, print_top_words_per_topic, topic_coherence
+from .topics import prepare_topics, print_top_words_per_topic, topic_coherence
 from .lda2vec_model import LDA2Vec
 
 gpu_id = int(os.getenv('CUDA_GPU', 0))
